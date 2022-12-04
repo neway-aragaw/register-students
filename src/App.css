@@ -118,7 +118,8 @@ button {
 }
 
 button:hover {
-  background-color: #d9e9ee;
+  /* background-color: #d9e9ee; */
+  background: linear-gradient(to right,blue, pink);
   color: black;
   border: 4px solid rgb(112, 12, 40);
 }
@@ -128,12 +129,20 @@ form p {
 }
 
 .list {
-  background-color: rgb(192, 243, 172);
+  background:linear-gradient(to left,
+    rgb(205, 195, 19),
+    rgb(6, 186, 222));
+  /* background-color: rgb(192, 243, 172); */
   border: 3px solid blue;
 
 }
 
-.lists {
+.abebe {
+background: linear-gradient(to left,rgb(205, 195, 19),rgb(132, 132, 215)  );
   background-color: rgb(242, 203, 203);
   border-bottom: #042a36;
+
+}
+.harm{
+  background-color: red;
 }
