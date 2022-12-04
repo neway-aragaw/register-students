@@ -31,9 +31,9 @@ function AddStudent() {
     // The onsubmit event is an event that occurs when you try to submit a form.
     // The onchange event occurs when the value of an element has been changed
     <form className='form' onSubmit={addStudent}><label><h3>student name</h3></label>
-    <input name='name' onChange={updateName} ></input><label><h3> sex (male---female)</h3></label>
-    <input className='abe' type='radio' value='male' name='age' onChange={updateAge} ></input>
-    <input className='abe' type='radio' name='age' value='female' onChange={updateAge} ></input><label><h3>student address</h3></label>
+    <input name='name' onChange={updateName} ></input><label><h3> sex </h3></label>
+   <label>M</label> <input className='abe' type='radio' value='male' name='age' onChange={updateAge} ></input>
+   <label>F</label> <input className='abe' type='radio' name='age' value='female' onChange={updateAge} ></input><label><h3>student address</h3></label>
     <input name='address' onChange={updateAddress} ></input><br></br><br></br>
     <button>Register</button><br></br>
     <p></p>
